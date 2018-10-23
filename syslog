@@ -1,0 +1,823 @@
+Oct 23 13:03:04 rich00-VirtualBox rsyslogd:  [origin software="rsyslogd" swVersion="8.32.0" x-pid="532" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Oct 23 13:03:19 rich00-VirtualBox gnome-software[1360]: failed to rescan: Failed to parse /usr/share/applications/firefox.desktop.dpkg-new file: cannot process file of type text/plain
+Oct 23 13:03:19 rich00-VirtualBox gnome-software[1360]: failed to rescan: Failed to parse /usr/share/applications/firefox.desktop.dpkg-tmp file: cannot process file of type text/plain
+Oct 23 13:03:21 rich00-VirtualBox gnome-software[1360]: failed to rescan: Failed to parse /usr/share/applications/firefox.desktop file: cannot process file of type application/x-desktop
+Oct 23 13:03:25 rich00-VirtualBox gnome-software[1360]: Only 0 apps for recent list, hiding
+Oct 23 13:03:25 rich00-VirtualBox gnome-software[1360]: tried overwriting vlc key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/rich00/.cache/gnome-software/cssresource/f086b7af91273453581758395baa3bd385e2ac41-banner-icon.png') left center / auto 100% no-repeat, url('/home/rich00/.cache/gnome-software/cssresource/77e25ae4433ebd18cceeebee1c05d9ff0e1ef427-banner_32i5K4c.png') center / cover no-repeat;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner-icon.png') left center / auto 100% no-repeat, url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner_32i5K4c.png') center / cover no-repeat;;
+Oct 23 13:03:38 rich00-VirtualBox anacron[7608]: Job `cron.daily' terminated
+Oct 23 13:04:10 rich00-VirtualBox gnome-shell[1168]: Object Gdm.UserVerifierProxy (0x557d5320d290), has been already deallocated - impossible to access to it. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Oct 23 13:04:10 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:04:10 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192ec00 i   resource:///org/gnome/shell/gdm/util.js:436 (0x7f76675852b8 @ 14)
+Oct 23 13:04:16 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-dock@ubuntu.com
+Oct 23 13:04:16 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 23 13:04:16 rich00-VirtualBox gnome-shell[1168]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.60/org/ayatana/NotificationItem/software_update_available
+Oct 23 13:04:17 rich00-VirtualBox gvfsd-metadata[1644]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Oct 23 13:04:17 rich00-VirtualBox gvfsd-metadata[1644]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Oct 23 13:05:10 rich00-VirtualBox update-notifier.desktop[1587]: /run/unattended-upgrades.lock:
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:06:56 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:06:56 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:06:59 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:06:59 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:06:59 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:06:59 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:00 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:01 rich00-VirtualBox systemd[1]: Stopping Disk Manager...
+Oct 23 13:07:01 rich00-VirtualBox udisksd[510]: udisks daemon version 2.7.6 exiting
+Oct 23 13:07:02 rich00-VirtualBox systemd[1]: Stopped Disk Manager.
+Oct 23 13:07:02 rich00-VirtualBox systemd[1]: Starting Disk Manager...
+Oct 23 13:07:02 rich00-VirtualBox udisksd[28952]: udisks daemon version 2.7.6 starting
+Oct 23 13:07:02 rich00-VirtualBox udisksd[28952]: failed to load module mdraid: libbd_mdraid.so.2: cannot open shared object file: No such file or directory
+Oct 23 13:07:02 rich00-VirtualBox udisksd[28952]: Failed to load the 'mdraid' libblockdev plugin
+Oct 23 13:07:02 rich00-VirtualBox systemd[1]: Started Disk Manager.
+Oct 23 13:07:02 rich00-VirtualBox udisksd[28952]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Oct 23 13:07:07 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:07 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:07 rich00-VirtualBox dbus-daemon[1030]: [session uid=1000 pid=1030] Activating via systemd: service name='org.gnome.Terminal' unit='gnome-terminal-server.service' requested by ':1.74' (uid=1000 pid=29904 comm="/usr/bin/gnome-terminal.real " label="unconfined")
+Oct 23 13:07:07 rich00-VirtualBox systemd[1005]: Starting GNOME Terminal Server...
+Oct 23 13:07:07 rich00-VirtualBox dbus-daemon[1030]: [session uid=1000 pid=1030] Successfully activated service 'org.gnome.Terminal'
+Oct 23 13:07:07 rich00-VirtualBox systemd[1005]: Started GNOME Terminal Server.
+Oct 23 13:07:11 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:11 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:11 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:11 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:11 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:11 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:11 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:12 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:12 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:12 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:12 rich00-VirtualBox systemd[1]: Stopping WPA supplicant...
+Oct 23 13:07:13 rich00-VirtualBox systemd[1]: Stopped WPA supplicant.
+Oct 23 13:07:13 rich00-VirtualBox systemd[1]: Starting WPA supplicant...
+Oct 23 13:07:13 rich00-VirtualBox systemd[1]: Started WPA supplicant.
+Oct 23 13:07:13 rich00-VirtualBox wpa_supplicant[30033]: Successfully initialized wpa_supplicant
+Oct 23 13:07:14 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:14 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:30 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:31 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:32 rich00-VirtualBox systemd[1]: Stopped Daily apt upgrade and clean activities.
+Oct 23 13:07:32 rich00-VirtualBox systemd[1]: Stopping Daily apt upgrade and clean activities.
+Oct 23 13:07:32 rich00-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 23 13:07:32 rich00-VirtualBox systemd[1]: Stopped Daily apt download activities.
+Oct 23 13:07:32 rich00-VirtualBox systemd[1]: Stopping Daily apt download activities.
+Oct 23 13:07:32 rich00-VirtualBox systemd[1]: Started Daily apt download activities.
+Oct 23 13:07:40 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:40 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:40 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:40 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:41 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:44 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:44 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:44 rich00-VirtualBox dbus-daemon[491]: Unknown group "power" in message bus configuration file
+Oct 23 13:07:44 rich00-VirtualBox dbus-daemon[491]: [system] Reloaded configuration
+Oct 23 13:07:45 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:45 rich00-VirtualBox systemd[1]: Reloading.
+Oct 23 13:07:45 rich00-VirtualBox systemd[1]: Reloading GNOME Display Manager.
+Oct 23 13:07:46 rich00-VirtualBox systemd[1]: Reloaded GNOME Display Manager.
+Oct 23 13:08:00 rich00-VirtualBox anacron[7608]: Job `cron.weekly' started
+Oct 23 13:08:01 rich00-VirtualBox anacron[2991]: Updated timestamp for job `cron.weekly' to 2018-10-23
+Oct 23 13:08:01 rich00-VirtualBox anacron[7608]: Job `cron.weekly' terminated
+Oct 23 13:08:01 rich00-VirtualBox anacron[7608]: Normal exit (2 jobs run)
+Oct 23 13:08:01 rich00-VirtualBox systemd[1]: Started Run anacron jobs.
+Oct 23 13:08:01 rich00-VirtualBox anacron[3004]: Anacron 2.3 started on 2018-10-23
+Oct 23 13:08:01 rich00-VirtualBox anacron[3004]: Normal exit (0 jobs run)
+Oct 23 13:08:09 rich00-VirtualBox update-notifier.desktop[1587]: /var/lib/dpkg/lock:
+Oct 23 13:08:13 rich00-VirtualBox gnome-software[1360]: failed to rescan: Failed to parse /usr/share/applications/thunderbird.desktop.dpkg-new file: cannot process file of type text/plain
+Oct 23 13:08:13 rich00-VirtualBox gnome-software[1360]: failed to rescan: Failed to parse /usr/share/applications/thunderbird.desktop.dpkg-tmp file: cannot process file of type text/plain
+Oct 23 13:08:13 rich00-VirtualBox gnome-software[1360]: failed to rescan: Failed to parse /usr/share/applications/thunderbird.desktop file: cannot process file of type application/x-desktop
+Oct 23 13:08:19 rich00-VirtualBox gnome-software[1360]: Only 0 apps for recent list, hiding
+Oct 23 13:08:19 rich00-VirtualBox gnome-software[1360]: tried overwriting vlc key GnomeSoftware::FeatureTile-css from border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('/home/rich00/.cache/gnome-software/cssresource/f086b7af91273453581758395baa3bd385e2ac41-banner-icon.png') left center / auto 100% no-repeat, url('/home/rich00/.cache/gnome-software/cssresource/77e25ae4433ebd18cceeebee1c05d9ff0e1ef427-banner_32i5K4c.png') center / cover no-repeat;; to border-color: #000000;#012text-shadow: 0 1px 1px rgba(255,255,255,0.5);#012color: #000000;#012outline-offset: 0;#012outline-color: alpha(#ffffff, 0.75);#012outline-style: dashed;#012outline-offset: 2px;#012background: url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner-icon.png') left center / auto 100% no-repeat, url('https://dashboard.snapcraft.io/site_media/appmedia/2018/04/banner_32i5K4c.png') center / cover no-repeat;;
+Oct 23 13:09:00 rich00-VirtualBox systemd[1]: Starting Clean php session files...
+Oct 23 13:09:01 rich00-VirtualBox CRON[4679]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 23 13:09:03 rich00-VirtualBox systemd[1]: Started Clean php session files.
+Oct 23 13:10:09 rich00-VirtualBox kernel: [ 5129.676050] SGI XFS with ACLs, security attributes, realtime, no debug enabled
+Oct 23 13:10:09 rich00-VirtualBox kernel: [ 5130.029415] JFS: nTxBlock = 8192, nTxLock = 65536
+Oct 23 13:10:09 rich00-VirtualBox kernel: [ 5130.113222] ntfs: driver 2.1.32 [Flags: R/O MODULE].
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.272573] QNX4 filesystem 0.2.3 registered.
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.477047] raid6: sse2x1   gen()  8379 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.524885] raid6: sse2x1   xor()  7241 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.572666] raid6: sse2x2   gen() 10720 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.620994] raid6: sse2x2   xor()  8686 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.668867] raid6: sse2x4   gen() 14823 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.716656] raid6: sse2x4   xor()  9362 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.764929] raid6: avx2x1   gen() 21152 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.812783] raid6: avx2x1   xor() 14734 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.861083] raid6: avx2x2   gen() 25274 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.908890] raid6: avx2x2   xor() 16025 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5130.956717] raid6: avx2x4   gen() 29111 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5131.005045] raid6: avx2x4   xor() 17626 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5131.005047] raid6: using algorithm avx2x4 gen() 29111 MB/s
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5131.005047] raid6: .... xor() 17626 MB/s, rmw enabled
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5131.005048] raid6: using avx2x2 recovery algorithm
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5131.070471] xor: automatically using best checksumming function   avx       
+Oct 23 13:10:10 rich00-VirtualBox kernel: [ 5131.148625] Btrfs loaded, crc32c=crc32c-intel
+Oct 23 13:10:36 rich00-VirtualBox systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 23 13:11:07 rich00-VirtualBox gnome-shell[1168]: Some code accessed the property 'refreshPropertyOnProxy' on the module 'util'. That property was defined with 'let' or 'const' inside the module. This was previously supported, but is not correct according to the ES6 standard. Any symbols to be exported from a module must be defined with 'var'. The property access will work as previously for the time being, but please fix your code anyway.
+Oct 23 13:17:02 rich00-VirtualBox CRON[15337]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct 23 13:24:58 rich00-VirtualBox gnome-shell[1168]: Object .Gjs_AppIndicatorIconActor__1 (0x557d5579e800), has been already finalized. Impossible to set any property to it.
+Oct 23 13:24:58 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x7fffc06d8e20 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f76677b5de0 @ 87)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192f6b0 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f765f6bf098 @ 58)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x7fffc06d9a00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06d9ac0 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d9bb0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f628 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f765f6a8cd0 @ 22)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06da800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f580 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f765f6a8340 @ 225)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06db3e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f508 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f765f69a4d8 @ 37)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f448 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f3c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06dc0e0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f348 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f2c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x7fffc06dd5e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x7fffc06dddf0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x7fffc06df1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f188 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x7fffc06e0540 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f0e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06e18a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x557d5192f058 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06e2c00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x7fffc06e3410 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192fa30 i   resource:///org/gnome/shell/ui/tweener.js:67 (0x7f76677c7c48 @ 3)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192f990 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f76677c7b38 @ 21)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f908 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f878 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d4a00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f7b8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:24:59 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06d55f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f728 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06d62e0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f6a0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x7fffc06d9c20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f608 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06da800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f588 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x7fffc06db3e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f508 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f448 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f3c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x7fffc06dc0e0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f348 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f2c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06dd5e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06dddf0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06df1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x557d5192f188 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e0540 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192f0e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:24:59 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already finalized. Impossible to get any property from it.
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x7fffc06e18a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192f058 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x7fffc06e2c00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e3410 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192fa30 i   resource:///org/gnome/shell/ui/tweener.js:69 (0x7f76677c7c48 @ 33)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192f990 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f76677c7b38 @ 21)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f908 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f878 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d4a00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f7b8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06d55f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already finalized. Impossible to get any property from it.
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f728 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06d62e0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f6a0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x7fffc06d9c20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f608 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06da800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f588 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x7fffc06db3e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f508 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f448 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f3c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x7fffc06dc0e0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f348 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f2c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06dd5e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06dddf0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06df1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x557d5192f188 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e0540 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192f0e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x7fffc06e18a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already deallocated - impossible to connect to signal. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192f058 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x7fffc06e2c00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e3410 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192f990 i   resource:///org/gnome/shell/ui/tweener.js:49 (0x7f76677c7b38 @ 108)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192f908 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f878 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06d4a00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192f7b8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06d55f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192f728 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06d62e0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:24:59 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already finalized. Impossible to get any property from it.
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192f6a0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x7fffc06d9c20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f608 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x7fffc06da800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x557d5192f588 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x7fffc06db3e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f508 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f448 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f3c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x7fffc06dc0e0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f348 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f2c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x7fffc06dd5e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06dddf0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06df1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x557d5192f188 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x7fffc06e0540 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x557d5192f0e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x7fffc06e18a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192f058 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:24:59 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already finalized. Impossible to get any property from it.
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x7fffc06e2c00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x7fffc06e3410 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192fac8 i   resource:///org/gnome/shell/ui/tweener.js:73 (0x7f76677c7cd0 @ 3)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192fa30 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f76677c7de0 @ 36)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f990 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f76677c7b38 @ 319)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f908 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192f878 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06d4a00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192f7b8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06d55f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192f728 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:24:59 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already finalized. Impossible to get any property from it.
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x7fffc06d62e0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f6a0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x7fffc06d9c20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:24:59 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x557d5192f608 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x7fffc06da800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f588 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x7fffc06db3e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f508 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f448 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f3c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x7fffc06dc0e0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f348 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x557d5192f2c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06dd5e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06dddf0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x7fffc06df1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x557d5192f188 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x7fffc06e0540 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192f0e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x7fffc06e18a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x557d5192f058 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:25:00 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-dock@ubuntu.com
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e2c00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e3410 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #41 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192fac8 i   resource:///org/gnome/shell/ui/tweener.js:75 (0x7f76677c7cd0 @ 33)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192fa30 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f76677c7de0 @ 36)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f990 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f76677c7b38 @ 319)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f908 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192f878 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06d4a00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192f7b8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06d55f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192f728 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:25:00 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already finalized. Impossible to get any property from it.
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x7fffc06d62e0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f6a0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x7fffc06d9c20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x557d5192f608 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x7fffc06da800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f588 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x7fffc06db3e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f508 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f448 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f3c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x7fffc06dc0e0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f348 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x557d5192f2c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06dd5e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06dddf0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x7fffc06df1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x557d5192f188 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x7fffc06e0540 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192f0e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x7fffc06e18a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x557d5192f058 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:25:00 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already finalized. Impossible to set any property to it.
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e2c00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e3410 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #41 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x7fffc06d3d10 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:506 (0x7f76677d3ef0 @ 229)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192f990 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:603 (0x7f76677d3f78 @ 17)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f908 i   resource:///org/gnome/shell/ui/tweener.js:40 (0x7f76677c7ab0 @ 38)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f878 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d4a00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f7b8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06d55f0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f728 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06d62e0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:25:00 rich00-VirtualBox gnome-shell[1168]: Object .Gjs_DashItemContainer (0x557d556f0c40), has been already finalized. Impossible to get any property from it.
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f6a0 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x7fffc06d9c20 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f608 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06da800 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f588 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x7fffc06db3e0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f508 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f448 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f3c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x7fffc06dc0e0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f348 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f2c8 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06dd5e0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06dddf0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06df1e0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x557d5192f188 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e0540 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192f0e0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x7fffc06e18a0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192f058 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:25:00 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d56bd0a30), has been already deallocated - impossible to access to it. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x7fffc06e2c00 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e3410 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:281 (0x7f76677d3bc0 @ 856)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06e6b70 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x7fffc06e5760 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:322 (0x7f76677d3bc0 @ 1462)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06e6b70 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192efd8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f76676d7c48 @ 5)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x7fffc06e5760 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e6b70 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192efd8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f76676d7c48 @ 17)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x7fffc06e5760 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e6b70 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:25:00 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:34:31 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-dock@ubuntu.com
+Oct 23 13:34:31 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 23 13:34:31 rich00-VirtualBox gnome-shell[1168]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.60/org/ayatana/NotificationItem/software_update_available
+Oct 23 13:34:32 rich00-VirtualBox gvfsd-metadata[1644]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Oct 23 13:34:32 rich00-VirtualBox gvfsd-metadata[1644]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
+Oct 23 13:39:02 rich00-VirtualBox CRON[15437]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Oct 23 13:39:02 rich00-VirtualBox systemd[1]: Starting Clean php session files...
+Oct 23 13:39:03 rich00-VirtualBox systemd[1]: Started Clean php session files.
+Oct 23 13:41:15 rich00-VirtualBox gnome-shell[1168]: Object .Gjs_AppIndicatorIconActor__1 (0x557d5525a040), has been already finalized. Impossible to set any property to it.
+Oct 23 13:41:15 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x7fffc06d9100 I   resource:///org/gnome/gjs/modules/_legacy.js:83 (0x7f76677b5de0 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192f770 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/indicatorStatusIcon.js:93 (0x7f765f6bf098 @ 58)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x7fffc06d9ce0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06d9da0 b   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d9e90 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f6e8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/appIndicator.js:190 (0x7f765f6a8cd0 @ 22)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06daae0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f640 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/statusNotifierWatcher.js:219 (0x7f765f6a8340 @ 225)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06db6c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f5c8 i   /usr/share/gnome-shell/extensions/ubuntu-appindicators@ubuntu.com/extension.js:61 (0x7f765f69a4d8 @ 37)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f508 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f488 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06dc3c0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f408 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f388 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x7fffc06dd8c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x7fffc06de0d0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x7fffc06df4c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f248 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x7fffc06e0820 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already finalized. Impossible to get any property from it.
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f1a0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06e1b80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x557d5192f118 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06e2ee0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x557d5192f058 i   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192faf0 i   resource:///org/gnome/shell/ui/tweener.js:67 (0x7f76677c7c48 @ 3)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192fa50 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f76677c7b38 @ 21)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f9c8 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f938 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d4ce0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f878 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:41:15 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already finalized. Impossible to get any property from it.
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06d58d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f7e8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06d65c0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f760 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x7fffc06d9f00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f6c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06daae0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f648 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x7fffc06db6c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f5c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f508 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f488 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x7fffc06dc3c0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f408 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f388 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06dd8c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06de0d0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06df4c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x557d5192f248 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e0820 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192f1a0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:41:15 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already deallocated - impossible to connect to signal. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x7fffc06e1b80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192f118 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x7fffc06e2ee0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x557d5192f058 i   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192faf0 i   resource:///org/gnome/shell/ui/tweener.js:69 (0x7f76677c7c48 @ 33)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192fa50 i   resource:///org/gnome/shell/ui/tweener.js:44 (0x7f76677c7b38 @ 21)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f9c8 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f938 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d4ce0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f878 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06d58d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already finalized. Impossible to get any property from it.
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f7e8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06d65c0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f760 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x7fffc06d9f00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f6c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06daae0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f648 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x7fffc06db6c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f5c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f508 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f488 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x7fffc06dc3c0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f408 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f388 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06dd8c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06de0d0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06df4c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x557d5192f248 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e0820 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192f1a0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x7fffc06e1b80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already finalized. Impossible to get any property from it.
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192f118 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x7fffc06e2ee0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x557d5192f058 i   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192fa50 i   resource:///org/gnome/shell/ui/tweener.js:49 (0x7f76677c7b38 @ 108)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192f9c8 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f938 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06d4ce0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192f878 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06d58d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192f7e8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06d65c0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:41:15 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already finalized. Impossible to get any property from it.
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192f760 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x7fffc06d9f00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f6c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x7fffc06daae0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x557d5192f648 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x7fffc06db6c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f5c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f508 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f488 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x7fffc06dc3c0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f408 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f388 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x7fffc06dd8c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06de0d0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06df4c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x557d5192f248 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x7fffc06e0820 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x557d5192f1a0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x7fffc06e1b80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192f118 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x7fffc06e2ee0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x557d5192f058 i   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d57ee0c30 i   resource:///org/gnome/shell/ui/tweener.js:73 (0x7f76677c7cd0 @ 3)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192faf0 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f76677c7de0 @ 36)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192fa50 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f76677c7b38 @ 319)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f9c8 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192f938 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06d4ce0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192f878 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06d58d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192f7e8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:41:15 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-dock@ubuntu.com
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x7fffc06d65c0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f760 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x7fffc06d9f00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x557d5192f6c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x7fffc06daae0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f648 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x7fffc06db6c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f5c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f508 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f488 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x7fffc06dc3c0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f408 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x557d5192f388 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06dd8c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06de0d0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x7fffc06df4c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x557d5192f248 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x7fffc06e0820 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192f1a0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x7fffc06e1b80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x557d5192f118 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e2ee0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x557d5192f058 i   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #41 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d57ee0c30 i   resource:///org/gnome/shell/ui/tweener.js:75 (0x7f76677c7cd0 @ 33)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192faf0 i   resource:///org/gnome/shell/ui/tweener.js:94 (0x7f76677c7de0 @ 36)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192fa50 i   resource:///org/gnome/shell/ui/tweener.js:61 (0x7f76677c7b38 @ 319)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f9c8 i   resource:///org/gnome/shell/ui/tweener.js:39 (0x7f76677c7ab0 @ 16)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192f938 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06d4ce0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192f878 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06d58d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192f7e8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x7fffc06d65c0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x557d5192f760 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x7fffc06d9f00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x557d5192f6c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x7fffc06daae0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x557d5192f648 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x7fffc06db6c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f5c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f508 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x557d5192f488 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x7fffc06dc3c0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f408 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x557d5192f388 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06dd8c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06de0d0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x7fffc06df4c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x557d5192f248 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x7fffc06e0820 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x557d5192f1a0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x7fffc06e1b80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x557d5192f118 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x7fffc06e2ee0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x557d5192f058 i   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #41 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x7fffc06d3ff0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:506 (0x7f76677d3ef0 @ 229)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192fa50 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:603 (0x7f76677d3f78 @ 17)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192f9c8 i   resource:///org/gnome/shell/ui/tweener.js:40 (0x7f76677c7ab0 @ 38)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192f938 i   resource:///org/gnome/shell/ui/dash.js:147 (0x7f76676d7bc0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x7fffc06d4ce0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x557d5192f878 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:577 (0x7f765f6dd2b8 @ 348)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x7fffc06d58d0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x557d5192f7e8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/dash.js:423 (0x7f765f6db890 @ 27)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x7fffc06d65c0 b   self-hosted:917 (0x7f76677f12b8 @ 394)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #9 0x557d5192f760 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:462 (0x7f765f6bfbc0 @ 122)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #10 0x7fffc06d9f00 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #11 0x557d5192f6c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1776 (0x7f765f6cbde0 @ 116)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #12 0x7fffc06daae0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #13 0x557d5192f648 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/docking.js:1895 (0x7f765f6cd230 @ 37)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #14 0x7fffc06db6c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #15 0x557d5192f5c8 i   /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com/extension.js:31 (0x7f765f6bf3c8 @ 12)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #16 0x557d5192f508 i   resource:///org/gnome/shell/ui/extensionSystem.js:82 (0x7f766765a120 @ 431)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #17 0x557d5192f488 i   resource:///org/gnome/shell/ui/extensionSystem.js:344 (0x7f766765abc0 @ 13)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #18 0x7fffc06dc3c0 b   self-hosted:251 (0x7f76677c3ab0 @ 223)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #19 0x557d5192f408 i   resource:///org/gnome/shell/ui/extensionSystem.js:343 (0x7f766765ab38 @ 64)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #20 0x557d5192f388 i   resource:///org/gnome/shell/ui/extensionSystem.js:361 (0x7f766765ac48 @ 87)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #21 0x7fffc06dd8c0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #22 0x7fffc06de0d0 b   resource:///org/gnome/shell/ui/sessionMode.js:205 (0x7f766756d670 @ 254)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #23 0x7fffc06df4c0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #24 0x557d5192f248 i   resource:///org/gnome/shell/ui/sessionMode.js:167 (0x7f766756d450 @ 40)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #25 0x7fffc06e0820 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #26 0x557d5192f1a0 i   resource:///org/gnome/shell/ui/screenShield.js:1282 (0x7f7667550bc0 @ 188)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #27 0x7fffc06e1b80 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #28 0x557d5192f118 i   resource:///org/gnome/shell/ui/screenShield.js:902 (0x7f766754fcd0 @ 18)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #29 0x7fffc06e2ee0 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #30 0x557d5192f058 i   self-hosted:915 (0x7f76677f12b8 @ 367)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #31 0x7fffc06e4260 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #32 0x557d5192efd8 i   resource:///org/gnome/shell/ui/lightbox.js:186 (0x7f7667638890 @ 29)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #33 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #34 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #35 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #36 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #37 0x7fffc06e63f0 b   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #38 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #39 0x7fffc06e7750 b   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:15 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #40 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:16 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already finalized. Impossible to get any property from it.
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192ee18 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:281 (0x7f76677d3bc0 @ 856)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06e6be0 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:16 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already finalized. Impossible to set any property to it.
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x7fffc06e5ed0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:322 (0x7f76677d3bc0 @ 1462)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x7fffc06e6be0 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:16 rich00-VirtualBox gnome-shell[1168]: Object .Gjs_DashItemContainer (0x557d519d61f0), has been already finalized. Impossible to get any property from it.
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192efd8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f76676d7c48 @ 5)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x7fffc06e5ed0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e6be0 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:16 rich00-VirtualBox gnome-shell[1168]: Object St.Label (0x557d531724e0), has been already deallocated - impossible to access to it. This might be caused by the fact that the object has been destroyed from C code using something such as destroy(), dispose(), or remove() vfuncs
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: == Stack trace for context 0x557d51526320 ==
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #0 0x557d5192efd8 i   resource:///org/gnome/shell/ui/dash.js:152 (0x7f76676d7c48 @ 17)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #1 0x557d5192ef38 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:208 (0x7f76677d3b38 @ 54)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #2 0x7fffc06e5ed0 b   resource:///org/gnome/gjs/modules/tweener/tweener.js:337 (0x7f76677d3bc0 @ 1626)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #3 0x557d5192ed88 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:350 (0x7f76677d3c48 @ 100)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #4 0x557d5192ed10 i   resource:///org/gnome/gjs/modules/tweener/tweener.js:365 (0x7f76677d3cd0 @ 10)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #5 0x7fffc06e6be0 I   resource:///org/gnome/gjs/modules/signals.js:128 (0x7f76677d3230 @ 386)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #6 0x557d5192ec80 i   resource:///org/gnome/shell/ui/tweener.js:245 (0x7f76677cf808 @ 159)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #7 0x7fffc06e77c0 I   resource:///org/gnome/gjs/modules/_legacy.js:82 (0x7f76677b5de0 @ 71)
+Oct 23 13:41:16 rich00-VirtualBox org.gnome.Shell.desktop[1168]: #8 0x557d5192ec00 i   resource:///org/gnome/shell/ui/tweener.js:220 (0x7f76677cf780 @ 15)
+Oct 23 13:41:56 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-dock@ubuntu.com
+Oct 23 13:41:56 rich00-VirtualBox gnome-software[1360]: no app for changed ubuntu-appindicators@ubuntu.com
+Oct 23 13:41:56 rich00-VirtualBox gnome-shell[1168]: [AppIndicatorSupport-DEBUG] Registering StatusNotifierItem :1.60/org/ayatana/NotificationItem/software_update_available
+Oct 23 13:41:56 rich00-VirtualBox gvfsd-metadata[1644]: g_udev_device_has_property: assertion 'G_UDEV_IS_DEVICE (device)' failed
